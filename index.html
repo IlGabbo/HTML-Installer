@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="shortcut icon" href="./static/images/icons/download.jpg" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Installer</title>
+</head>
+<body>
+    <h4>
+        Please note, the installer provides <span>only free programs.</span>
+        For cracked programs it takes some time
+    </h4>
+    <h4>
+        <span>Allow pop-ups</span> on this site if you want to download multiple files
+    </h4>
+    <div class="change-mode" onclick="changeMode()">
+        <button id="dark-mode"></button>
+        <span>Dark Mode</span>
+    </div>
+
+    <div class="container">
+        <div class="first-list">
+            <div class="app-container">
+                <img src="./static/images/icons/steam.png" alt="steam">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="steam"> 
+                    <div class="b-input"></div>
+                    <span>Steam</span>
+                </label>
+            </div>
+            <div class="app-container">
+                <img src="./static/images/icons/discord.png" alt="discord">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="discord"> 
+                    <div class="b-input"></div>
+                    <span>Discord</span>
+                </label>
+            </div>
+            <div class="app-container">
+                <img src="./static/images/icons/utorrent.png" alt="utorrent">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="utorrent"> 
+                    <div class="b-input"></div>
+                    <span>uTorrent</span>
+                </label>
+            </div>
+            <div class="app-container">
+                <img src="./static/images/icons/minecraft.png" alt="minecraft">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="minecraft-premium"> 
+                    <div class="b-input"></div>
+                    <span>Minecraft Premium</span>
+                </label>
+            </div>
+            <div class="app-container">
+                <img src="./static/images/icons/epic-games.png" alt="epic-games">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="epic-games"> 
+                    <div class="b-input"></div>
+                    <span>Epic Games</span>
+                </label>
+            </div>
+            <div class="app-container">
+                <img src="./static/images/icons/battlenet.png" alt="battlenet">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="battle-net"> 
+                    <div class="b-input"></div>
+                    <span>Battle.net</span>
+                </label>
+            </div>
+            <div class="app-container">
+                <img src="./static/images/icons/logitech.png" alt="logitech">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="logitech-hub"> 
+                    <div class="b-input"></div>
+                    <span>Logitech G HUB</span>
+                </label>
+            </div>
+            <div class="app-container">
+                <img src="./static/images/icons/origin.png" alt="origin">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="origin"> 
+                    <div class="b-input"></div>
+                    <span>Origin</span>
+                </label>
+            </div>
+            <div class="app-container">
+                <img src="./static/images/icons/intellij.png" alt="intellij">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="intellij"> 
+                    <div class="b-input"></div>
+                    <span>Intellij</span>
+                </label>
+            </div>
+        </div>
+        <div class="second-list">
+            <div class="app-container">
+                <img src="./static/images/icons/vs.png" alt="vs">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="vs"> 
+                    <div class="b-input"></div>
+                    <span>Visual Studio</span>
+                </label>
+            </div>
+            <div class="app-container">
+                <img src="./static/images/icons/vscode.png" alt="vscode">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="vscode"> 
+                    <div class="b-input"></div>
+                    <span>VS Code</span>
+                </label>
+            </div>
+            <div class="app-container">
+                <img src="./static/images/icons/sublime-text.png" alt="steam">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="sublime-text"> 
+                    <div class="b-input"></div>
+                    <span>Sublime Text</span>
+                </label>
+            </div>
+            <div class="app-container">
+                <img src="./static/images/icons/PyCharm.png" alt="pycharm">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="pycharm"> 
+                    <div class="b-input"></div>
+                    <span>PyCharm</span>
+                </label>
+            </div>
+            <div class="app-container">
+                <img src="./static/images/icons/blender.png" alt="blender">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="blender"> 
+                    <div class="b-input"></div>
+                    <span>Blender</span>
+                </label>
+            </div>
+            <div class="app-container">
+                <img src="./static/images/icons/eclipse.png" alt="eclipse">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="eclipse-java-dev"> 
+                    <div class="b-input"></div>
+                    <span>Eclipse Java Dev</span>
+                </label>
+            </div>
+            <div class="app-container">
+                <img src="./static/images/icons/figma.png" alt="figma">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="Figma"> 
+                    <div class="b-input"></div>
+                    <span>Figma</span>
+                </label>
+            </div>
+            <div class="app-container">
+                <img src="./static/images/icons/nodejs.png" alt="nodejs">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="node-js"> 
+                    <div class="b-input"></div>
+                    <span>NodeJS</span>
+                </label>
+            </div>
+            <div class="app-container">
+                <img src="./static/images/icons/qt-designer.png" alt="qt-designer">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="qt-designer"> 
+                    <div class="b-input"></div>
+                    <span>QT Designer</span>
+                </label>
+            </div>
+        </div>
+        <div class="third-list">
+            <div class="app-container">
+                <img src="./static/images/icons/winrar.png" alt="winrar">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="winrar"> 
+                    <div class="b-input"></div>
+                    <span>WinRar</span>
+                </label>
+            </div>
+            <div class="app-container">
+                <img src="./static/images/icons/7z.png" alt="7z">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="seven-zip"> 
+                    <div class="b-input"></div>
+                    <span>7-Zip</span>
+                </label>
+            </div>
+            <div class="app-container">
+                <img src="./static/images/icons/obs.png" alt="obs">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="obs"> 
+                    <div class="b-input"></div>
+                    <span>OBS</span>
+                </label>
+            </div>
+            <div class="app-container">
+                <img src="./static/images/icons/nvidia.png" alt="nvidia">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="geforce"> 
+                    <div class="b-input"></div>
+                    <span>Geforce</span>
+                </label>
+            </div>
+            <div class="app-container">
+                <img src="./static/images/icons/virtualbox.png" alt="virtualbox">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="virtual-box"> 
+                    <div class="b-input"></div>
+                    <span>VirtualBox</span>
+                </label>
+            </div>
+            <div class="app-container">
+                <img src="./static/images/icons/spotify.png" alt="spotify">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="spotify"> 
+                    <div class="b-input"></div>
+                    <span>Spotify</span>
+                </label>
+            </div>
+            <div class="app-container">
+                <img src="./static/images/icons/vlc.png" alt="vlc">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="vlc"> 
+                    <div class="b-input"></div>
+                    <span>VLC</span>
+                </label>
+            </div>
+            <div class="app-container">
+                <img src="./static/images/icons/malwarebytes.png" alt="malwarebytes">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="malwarebytes"> 
+                    <div class="b-input"></div>
+                    <span>Malwarebytes</span>
+                </label>
+            </div>
+            <div class="app-container">
+                <img src="./static/images/icons/avast.png" alt="avast">
+                <label class="b-contain">
+                    <input type="checkbox" name="checkbox" id="avast"> 
+                    <div class="b-input"></div>
+                    <span>Avast</span>
+                </label>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button onclick="download()">
+            Download
+        </button>
+        <button onclick="selectAll()" id="selector-button">
+            Select All
+        </button>
+    </div>
+    <div id="alert" class="alert">
+        <div>
+            <h3>Nothing Selected</h3>
+            <button onclick="ok()">
+                Ok
+            </button>
+        </div>
+    </div>
+    <script src="./static/js/js.js"></script>
+</body>
+</html>
